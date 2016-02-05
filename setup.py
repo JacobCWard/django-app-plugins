@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name='django-app-plugins',
     version=__import__('app_plugins').__version__,
-    description='Reusable django application for writting pluggable reusable '
+    description='Reusable django application for writing pluggable reusable '
                 'django applications.',
     long_description=open('docs/overview.txt').read(),
     author='Doug Napoleone',
